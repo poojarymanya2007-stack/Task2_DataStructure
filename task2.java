@@ -17,13 +17,11 @@ public class task2
             }
         }
     }
-    static void findValues(int a[]) 
-    {
+    static void findValues(int a[]) {
         System.out.println("Second Lowest: " + a[1]);
         System.out.println("Second Highest: " + a[3]);
     }
-    public static void main(String[] args)
-     {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a[] = new int[5];
         System.out.println("Enter 5 different numbers:");
@@ -34,6 +32,7 @@ public class task2
         for (int i = 0; i < 5; i++) {
             System.out.print(a[i] + " ");
         }
+        System.out.println();
         sort(a);
         System.out.println("Sorted Array:");
         for (int i = 0; i < 5; i++) {
